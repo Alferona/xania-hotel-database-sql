@@ -185,6 +185,3 @@ xania-hotel-database-sql/
 - connect database to an application
 - build a dashboard from the SQL data
 
-## Privacy Notes
-
-This repository is a cleaned portfolio version of an academic group project. Private academic identifiers, internal submission details, and unsanitized university-only files are intentionally excluded.
