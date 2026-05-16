@@ -1,31 +1,48 @@
-# Xania Hotel Booking Database — SQL Design Project
+# Xania Hotel Booking Database System
 
-## Overview
+## Project Overview
 
-Xania Hotel Booking Database is a relational database design and SQL project for a hotel booking management system. It was developed as part of an Introduction to Database academic group project, and this repository is a cleaned, portfolio-ready version focused on database design, SQL implementation, and query analysis.
+Xania Hotel Booking Database System is a relational database project designed for managing hotel reservations, rooms, customers, staff operations, and payment records.
 
-## Project Scope
+The project focuses on database architecture, SQL implementation, entity relationship modelling (ERD), normalization, and structured query analysis using Microsoft SQL Server.
 
-This project demonstrates:
+This repository contains the database schema, sample datasets, SQL queries, diagrams, and supporting documentation prepared as part of a group-based database systems project.
 
-- relational database design
-- business rules
-- normalization
-- ERD design
-- SQL DDL table creation
-- sample data insertion
-- SQL DML queries
-- query result analysis
+---
 
-## My Contribution
+## My Role in the Project
 
-- Contributed to DBMS advantages analysis and case study discussion
-- Contributed to UNF/normalization preparation
-- Prepared and formatted parts of the assignment documentation
-- Developed DML queries related to customer reservation analysis and hotel revenue reporting
-- Helped present the database design in a structured academic format
+My main responsibility in this project focused on:
 
-## Database Entities
+- designing SQL table structures
+- building relational connections between entities
+- creating ERD diagrams
+- implementing primary and foreign key relationships
+- handling normalization structure
+- writing and testing SQL queries
+- validating table relationships and data consistency
+
+I also contributed to query testing and structured database documentation.
+
+---
+
+## System Features
+
+The database system supports:
+
+- hotel branch management
+- room and room type management
+- customer information tracking
+- booking and reservation handling
+- payment record management
+- staff management
+- revenue-related query analysis
+
+---
+
+## Database Design
+
+### Main Entities
 
 - Branch
 - RoomType
@@ -35,15 +52,45 @@ This project demonstrates:
 - Booking
 - Payment
 
+### Database Concepts Used
+
+- Relational Database Design
+- ERD Modelling
+- Normalization
+- Primary & Foreign Keys
+- One-to-Many Relationships
+- SQL Constraints
+- Data Integrity
+
+---
+
 ## Technologies Used
 
 - SQL
-- Microsoft SQL Server / SSMS
-- Relational database design
-- ERD
-- Normalization
-- DDL
-- DML
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- ERD Modelling
+- Relational Database Systems
+
+---
+
+## SQL Operations Demonstrated
+
+This project includes practical use of:
+
+- CREATE TABLE
+- INSERT INTO
+- SELECT Queries
+- INNER JOIN
+- LEFT JOIN
+- GROUP BY
+- HAVING
+- ORDER BY
+- Aggregate Functions
+- Filtering Conditions
+- Revenue & Reservation Analysis Queries
+
+---
 
 ## Project Structure
 
@@ -166,22 +213,25 @@ xania-hotel-database-sql/
 - [Database Project Summary](documentation/database-project-summary.md)
 - [Xania Hotel Database Project Summary PDF](documentation/xania-hotel-database-project-summary.pdf)
 
-## What I Learned
+What I Learned
 
-- relational database design
-- normalization
-- entity relationship modelling
-- SQL table creation
-- primary and foreign keys
-- SQL joins and aggregation
-- query testing and result interpretation
+Through this project, I improved my understanding of:
+
+structured database design
+SQL query logic
+normalization techniques
+relational schema architecture
+database relationships
+query optimization basics
+data organization and integrity
 
 ## Future Improvements
 
-- add stored procedures
-- add views
-- improve constraints
-- add indexes
-- connect database to an application
-- build a dashboard from the SQL data
+stored procedures
+SQL views
+indexing optimization
+triggers and constraints
+dashboard integration
+application-level database connection
+analytics reporting system
 
